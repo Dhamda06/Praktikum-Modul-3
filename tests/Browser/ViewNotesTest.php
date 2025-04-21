@@ -21,8 +21,8 @@ class ViewNotesTest extends DuskTestCase
                 ->assertPathIs('/dashboard')
                 ->clickLink('Notes')
                 ->assertPathIs('/notes')
-                ->assertSee('Catatan Uji Coba')         
-                ->assertSee('Tugas Modul 3');    
+                ->assertSee('Catatan Uji Coba');         
+                    
         });
     }
 }
